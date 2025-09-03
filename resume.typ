@@ -17,101 +17,70 @@
   email: email,
   website: personal-site,
   linkedin-user-id: linkedin,
-  github-username: github
+  github-username: github,
 )
 
-#custom-title("Education")[
-  #education-heading(
-    "Scranton University", "Scranton, PA",
-    "Bachelor of Arts", "Business Administration",
-    datetime(year: 1992, month: 9, day: 1),
-    datetime(year: 1998, month: 4,  day: 1)
+#custom-title("Experience")[
+  #work-heading(
+    "Information Technology Intern",
+    "U.S. Embassy",
+    "Addis Ababa, Ethiopia",
+    datetime(year: 2024, month: 6, day: 1),
+    datetime(year: 2024, month: 7, day: 1),
   )[
-    - Awarded “Most Determined Student” in senior year
+    - Managed infrastructure including imaging 40+ computers and maintaining 200+ systems with networking and remote machine maintenance
+    - Developed QR inventory management system for CLO office using React, Firestore, and image storage with tagging functionality for box-to-item tracking
+  ]
+
+  #work-heading(
+    "Freelance Web Developer",
+    "Briggs Davis",
+    "Remote",
+    datetime(year: 2023, month: 9, day: 1),
+    "Present",
+  )[
+    - Delivered web solutions for clients including nonprofits using React and WordPress with focus on donation systems and membership management
+    - Integrated Ethiopian payment APIs and built Supabase backends with row-level security for e-commerce platforms including jewelry inventory systems
+    - Developed complex business applications including a construction calculator with real-time cost and efficiency optimization features
   ]
 ]
-
-#custom-title("Experience")[  
-  #work-heading(
-    "Regional Manager",
-    "Dunder Mifflin",
-    "Scranton, PA",
-    datetime(year:2013, month:5, day:1),
-    "Present"
-  )[
-    - Led a team of 10+ employees, boosting office productivity and morale
-    - Maintained the highest sales average, outperforming competitors despite market challenges
-    - Implemented innovative security measures to protect the office from threats, including criminal activity and wildlife intrusions
-    - Successfully negotiated client contracts, increasing annual revenue by 20%
-  ]
-
-  #work-heading(
-    "Assistant (to the) Regional Manager",
-    "Dunder Mifflin",
-    "Scranton, PA",
-    datetime(year:2008, month:3, day:1),
-    datetime(year:2013, month:3, day:1),
-  )[
-    - Developed and enforced company policies through the creation of the “Schrute Bucks” incentive program, improving employee engagement
-    - Achieved record-breaking sales, earning the title of top salesperson for five consecutive years
-    - Supported managerial functions, including staff supervision, client relationship management, and strategic planning
-  ]
-
-  #work-heading(
-    "Sales Associate",
-    "Staples",
-    "Scranton, PA",
-    datetime(year:2008, month:3, day:1),
-    datetime(year:2008, month:3, day:1),
-  )[
-    - Recognized as “Employee of the Month” for outstanding sales performance within a single month
-    - Leveraged exceptional customer service skills to build a loyal client base
-    - Demonstrated leadership by training new hires on effective sales techniques
-  ]
-
-  #work-heading(
-    "Assistant (to the) Regional Manager",
-    "Dunder Mifflin",
-    "Scranton, PA",
-    datetime(year:2008, month:3, day:1),
-    datetime(year:2005, month:3, day:1),
-  )[
-    - Exceeded individual sales targets, contributing significantly to branch profitability
-    - Introduced “Schrute Bucks” as a motivational tool, fostering a competitive \& collaborative work environment
-    - Assisted in coordinating office events and initiatives to maintain team cohesion
-  ]
-]
-
 
 #custom-title("Projects")[
-  #project-heading(
-    "Oderum",
-  )[
-    - Established and managed a family-run agro-tourism business offering unique activities such as table-making workshops, beet farming tours, and hay rides
-    - Increased guest bookings by 50% through effective online marketing and guest engagement
-    - Maintained a 4.9/5 guest satisfaction rating on travel review platforms
+  #project-heading("Oderum")[
+    - Implemented machine learning recommendation system using AI embeddings with cosine similarity search across 300+ fragrances and notes
+    - Engineered training pipeline through web scraping to generate 1000+ similarity pairs for model fine-tuning
+    - Built full-stack application with Next.js and PostgreSQL supporting user reviews and fragrance lists
   ]
 
-  #project-heading(
-    "Dwight Schrute's Gym for Muscles",
-  )[
-    - Designed and equipped a workplace gym, promoting health and wellness for Dunder Mifflin employees
-    - Created a recycling program, offering monetary incentives (5 cents per yard of tin) to encourage sustainable practices
+  #project-heading("Jazzio")[
+    - Developed bilingual membership platform for U.S. Embassy Addis Ababa supporting 20,000+ members with English/Amharic registration forms and Ethiopian calendar integration
+    - Reduced staffing requirements by 30% and processing time by 25% through QR-based verification system with real-time analytics tracking gender and retention metrics
+    - Implemented custom form validation using regex, Zod, and Firebase backend to handle Amharic text input and dual-language database architecture
   ]
 
-  #project-heading(
-    "Sesame Avenue Daycare Center for Infants and Toddlers",
-  )[
-    - Founded an innovative daycare focused on cognitive development and early learning strategies
-    - Developed specialized programs combining physical activities and educational games for children
+  #project-heading("Shrine")[
+    - Built high-performance chess engine in Rust using bitboard representation with minimax algorithm achieving 12-move search depth
+    - Optimized performance through transposition tables, alpha-beta pruning, and killer move heuristics
   ]
 ]
-
 
 #custom-title("Skills")[
   #skills()[
-    - *Professional Skills:* Sales Expertise, Leadership, Conflict Resolution, Strategic Planning, Negotiation
-    - *Personal Traits:* Hardworking, Alpha Male, Jackhammer, Merciless, Insatiable
-    - *Specialized Talents:* Karate (Black Belt), Jujitsu, Werewolf Hunting, Table Making
+    - *Languages:* JavaScript, TypeScript, Python, Rust, Java, HTML, CSS, SQL, WebAssembly
+    - *Frameworks:* React, Svelte, Next.js, Remix, PyTorch, FastAPI
+    - *Databases:* PostgreSQL, SQLite, MongoDB, Redis, Pinecone
+    - *Cloud:* AWS, GCP, Azure, Vercel, Netlify, Firebase, Supabase, Cloudflare
+    - *Tools:* Stripe, Git, Playwright, Linux, Jest, Unity, Unreal
   ]
+]
+
+#custom-title("Education")[
+  #education-heading(
+    "University of Pittsburgh",
+    "Pittsburgh, PA",
+    "Bachelor of Science",
+    "Computer Science",
+    datetime(year: 2025, month: 8, day: 1),
+    datetime(year: 2029, month: 5, day: 1),
+  )[]
 ]
