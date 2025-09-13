@@ -29,7 +29,7 @@
     datetime(year: 2024, month: 7, day: 1),
   )[
     - Managed infrastructure including imaging 40+ computers and maintaining 200+ systems with networking and remote machine maintenance
-    - Developed QR inventory management system for CLO office using React, Firestore, and image storage with tagging functionality for box-to-item tracking
+    - Developed QR inventory management system for CLO office through close collaboration with team stakeholders, using modern web technologies and cloud database with tagging functionality for comprehensive box-to-item tracking
   ]
 
   #work-heading(
@@ -39,28 +39,28 @@
     datetime(year: 2023, month: 9, day: 1),
     "Present",
   )[
-    - Delivered web solutions for clients including nonprofits using React and WordPress with focus on donation systems and membership management
-    - Integrated Ethiopian payment APIs and built Supabase backends with row-level security for e-commerce platforms including jewelry inventory systems
+    - Delivered web solutions for clients including nonprofits using modern web frameworks and content management systems with focus on donation systems and membership management
+    - Integrated Ethiopian payment systems and built secure cloud database systems for e-commerce platforms including comprehensive jewelry inventory management systems
     - Developed complex business applications including a construction calculator with real-time cost and efficiency optimization features
   ]
 ]
 
 #custom-title("Projects")[
   #project-heading("Oderum")[
-    - Implemented machine learning recommendation system using AI embeddings with cosine similarity search across 300+ fragrances and notes
-    - Engineered training pipeline through web scraping to generate 1000+ similarity pairs for model fine-tuning
-    - Built full-stack application with Next.js and PostgreSQL supporting user reviews and fragrance lists
+    - Implemented machine learning recommendation system using AI-powered recommendation algorithms to analyze and match across 300+ fragrances and notes
+    - Engineered training pipeline through automated data collection to generate 1000+ similarity pairs for advanced model fine-tuning
+    - Built full-stack application with modern web framework and database supporting comprehensive user reviews and personalized fragrance lists
   ]
 
   #project-heading("Jazzio")[
-    - Developed bilingual membership platform for U.S. Embassy Addis Ababa supporting 20,000+ members with English/Amharic registration forms and Ethiopian calendar integration
+    - Collaborated with embassy staff to develop bilingual membership platform for U.S. Embassy Addis Ababa supporting 20,000+ members with English/Amharic registration forms and Ethiopian calendar integration
     - Reduced staffing requirements by 30% and processing time by 25% through QR-based verification system with real-time analytics tracking gender and retention metrics
-    - Implemented custom form validation using regex, Zod, and Firebase backend to handle Amharic text input and dual-language database architecture
+    - Implemented custom form validation using advanced validation and cloud database systems to handle Amharic text input and dual-language database architecture
   ]
 
   #project-heading("Shrine")[
-    - Built high-performance chess engine in Rust using bitboard representation with minimax algorithm achieving 12-move search depth
-    - Optimized performance through transposition tables, alpha-beta pruning, and killer move heuristics
+    - Built high-performance chess engine in Rust using advanced data structures and game algorithms achieving impressive 12-move search depth
+    - Optimized performance through advanced performance optimization techniques including memory management and strategic move prioritization
   ]
 ]
 
