@@ -48,19 +48,19 @@
 #custom-title("Projects")[
   #project-heading("Oderum")[
     - Implemented machine learning recommendation system using AI-powered recommendation algorithms to analyze and match across 300+ fragrances and notes
-    - Engineered training pipeline through automated data collection to generate 1000+ similarity pairs for advanced model fine-tuning
+    - Engineered training pipeline through automated data collection to generate 1000+ similarity pairs for model fine-tuning
     - Built full-stack application with modern web framework and database supporting comprehensive user reviews and personalized fragrance lists
   ]
 
   #project-heading("Jazzio")[
-    - Collaborated with embassy staff to develop bilingual membership platform for U.S. Embassy Addis Ababa supporting 20,000+ members with English/Amharic registration forms and Ethiopian calendar integration
+    - Developed bilingual membership platform for U.S. Embassy Addis Ababa supporting 20,000+ members with English/Amharic registration forms and Ethiopian calendar integration based on requirements gathered from embassy staff
     - Reduced staffing requirements by 30% and processing time by 25% through QR-based verification system with real-time analytics tracking gender and retention metrics
-    - Implemented custom form validation using advanced validation and cloud database systems to handle Amharic text input and dual-language database architecture
+    - Implemented custom form validation using cloud database systems to handle Amharic text input and dual-language database architecture
   ]
 
   #project-heading("Shrine")[
-    - Built high-performance chess engine in Rust using advanced data structures and game algorithms achieving impressive 12-move search depth
-    - Optimized performance through advanced performance optimization techniques including memory management and strategic move prioritization
+    - Built complete chess engine in Rust capable of evaluating millions of board positions and achieving 12-move search depth for strategic gameplay
+    - Optimized performance through efficient memory usage and search algorithms, enabling fast position analysis and move calculation
   ]
 ]
 
