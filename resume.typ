@@ -53,7 +53,7 @@
   ]
 
   #project-heading("Jazzio")[
-    - Developed bilingual membership platform for U.S. Embassy Addis Ababa supporting 20,000+ members with English/Amharic registration forms and Ethiopian calendar integration based on requirements gathered from embassy staff
+    - Developed bilingual membership platform for U.S. Embassy Addis Ababa supporting 30,000+ members with English/Amharic registration forms and Ethiopian calendar integration based on requirements gathered from embassy staff
     - Reduced staffing requirements by 30% and processing time by 25% through QR-based verification system with real-time analytics tracking gender and retention metrics
     - Implemented custom form validation using cloud database systems to handle Amharic text input and dual-language database architecture
   ]
