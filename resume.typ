@@ -8,7 +8,7 @@
 #let personal-site = "ntedvs.com"
 
 #show: resume.with(
-  top-margin: 0.45in,
+  // top-margin: 0.45in,
   personal-info-font-size: 9.2pt,
   author-position: center,
   personal-info-position: center,
@@ -22,8 +22,19 @@
 
 #custom-title("Experience")[
   #work-heading(
+    "Software Engineer Intern",
+    "DealerPulse",
+    "Remote",
+    datetime(year: 2024, month: 10, day: 1),
+    "Present",
+  )[
+    - Built full-stack notification system with admin interface using Next.js and Supabase for creating and managing user notifications
+    - Implemented cron-based scheduler with APNS integration using Swift to deliver personalized messages at specified times, driving user engagement and app retention
+  ]
+
+  #work-heading(
     "Information Technology Intern",
-    "U.S. Embassy",
+    "U.S. Department of State",
     "Addis Ababa, Ethiopia",
     datetime(year: 2024, month: 6, day: 1),
     datetime(year: 2024, month: 7, day: 1),
@@ -41,19 +52,17 @@
   )[
     - Delivered web solutions for clients including nonprofits using modern web frameworks and content management systems with focus on donation systems and membership management
     - Integrated Ethiopian payment systems and built secure cloud database systems for e-commerce platforms including comprehensive jewelry inventory management systems
-    - Developed complex business applications including a construction calculator with real-time cost and efficiency optimization features
   ]
 ]
 
 #custom-title("Projects")[
   #project-heading("Oderum")[
-    - Implemented machine learning recommendation system using AI-powered recommendation algorithms to analyze and match across 300+ fragrances and notes
-    - Engineered training pipeline through automated data collection to generate 1000+ similarity pairs for model fine-tuning
+    - Implemented machine learning recommendation system using AI-powered algorithms and automated training pipeline to analyze and match across 300+ fragrances, generating 1000+ similarity pairs for model fine-tuning
     - Built full-stack application with modern web framework and database supporting comprehensive user reviews and personalized fragrance lists
   ]
 
   #project-heading("Jazzio")[
-    - Developed bilingual membership platform for U.S. Embassy Addis Ababa supporting 30,000+ members with English/Amharic registration forms and Ethiopian calendar integration based on requirements gathered from embassy staff
+    - Developed bilingual membership platform for U.S. Embassy Addis Ababa supporting 30,000+ members with English/Amharic registration forms and Ethiopian calendar integration from embassy requirements
     - Reduced staffing requirements by 30% and processing time by 25% through QR-based verification system with real-time analytics tracking gender and retention metrics
     - Implemented custom form validation using cloud database systems to handle Amharic text input and dual-language database architecture
   ]
